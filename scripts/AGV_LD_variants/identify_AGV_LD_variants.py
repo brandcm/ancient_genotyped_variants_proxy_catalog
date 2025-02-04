@@ -23,7 +23,7 @@ def main():
 	with open(args.dictionary, 'rb') as dict_file:
 		open_dict = pickle.load(dict_file)
 
-	annotation_file_path = f'{LD_directory}/{population}_{chromosome}_no_filter_0.2_1000000_info_annotation.csv.gz'
+	annotation_file_path = f'{LD_directory}{population}_{chromosome}_no_filter_0.2_1000000_info_annotation.csv.gz'
 	rsID_mapping = load_rsID_mapping(annotation_file_path)
 
 	identify_variants_in_LD(open_dict, chromosome, population, LD_directory, out_directory, rsID_mapping)
@@ -45,8 +45,8 @@ def identify_variants_in_LD(dictionary, chromosome, population, LD_directory, ou
 
 	AGVs = set(dictionary[chromosome])
 
-	ld_file_path = f'{LD_directory}/{population}_{chromosome}_no_filter_0.2_1000000_LD.csv.gz'
-	output_file_path = f'{out_directory}/{population}_{chromosome}_AGV_LD_variants.txt'
+	ld_file_path = f'{LD_directory}{population}_{chromosome}_no_filter_0.2_1000000_LD.csv.gz'
+	output_file_path = f'{out_directory}{population}_{chromosome}_AGV_LD_variants.txt'
 
 	with gzip.open(ld_file_path, 'rt') as LD_file, open(output_file_path, 'w') as out:
 		next(LD_file)

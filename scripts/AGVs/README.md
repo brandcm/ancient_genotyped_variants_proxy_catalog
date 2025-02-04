@@ -1,0 +1,5 @@
+This directory contains files used to retrieve data on the ancient genotyped variants. Scripts are listed in the order in which they should be run.
+
+- retrieve_and_format_AGVs.sh generates BED files of the AGVs using both the hg19 and hg38 assemblies. Differences in reference allele are corrected in the hg38 BED file using the check_reference_bases_in_AGVs_hg38_BED.py script as liftOver does not update allele information. This script switches the reference and alternate allele in hg38 for sites where the hg19 and hg38 reference alleles do not match. The rsID and different reference alleles are also printed to the standard out as a record of updates made to the hg38 BED file.
+
+- create_AGVs_hg38_dictionary.py generates a pickle where chromosomes are keys and the values are colon-delimited strings with the position, reference allele, and alternate allele. Run on the command line using `python3 create_AGVs_hg38_dictionary.py`.
