@@ -1,0 +1,4 @@
+genotypename: /wynton/group/capra/data/wynton_databases/ancient_dna/V54.1.p1/v54.1.p1_1240K_public.geno
+snpname: /wynton/group/capra/data/wynton_databases/ancient_dna/V54.1.p1/v54.1.p1_1240K_public.snp
+indivname: /wynton/group/capra/data/wynton_databases/ancient_dna/V54.1.p1/v54.1.p1_1240K_public.ind
+outputformat: ANCESTRYMAP
