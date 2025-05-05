@@ -1,4 +1,4 @@
-This repository houses data and scripts used in the Ancient Genotyped Variants project.
+This repository houses data and scripts used in the Ancient Genotyped Variants Proxy Catalog project.
 
 - The data directory contains some of the files used in this analysis. Many of the files used here exceed the size limits of GitHub. As such, links to external directories containing these files are provided.
 
