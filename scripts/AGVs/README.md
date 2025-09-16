@@ -9,3 +9,7 @@ This directory contains files used to retrieve data on the ancient genotyped var
 - `AGVs_TopLD_presence_summary.sh` implements `AGVs_TopLD_presence_summary.py` to retrieve metadata per AGV: 1) presence in TopLD ancestry groups, 2) minor allele frequency in TopLD, and 3) presence in LD with $\geq$ one variant in TopLD.
 
 - `annotate_AGVs.sh` implements `annotate_AGVs.py` to merge gnomAD allele frequencies with the TopLD annotations per AGV.
+
+- `quantify_ancient_sample_coverge_per_site.sh` implements `quantify_ancient_sample_coverge_per_site.py` to quantify the number of ancient samples in the AADR that are genotyped at a given AGV.
+
+- `concat_ancient_sample_coverage_per_site.sh` concatenates the chromosome-level outputs from the above script.
