@@ -1,0 +1,4 @@
+Total occurrences of AFR: 87797014
+Total occurrences of EAS: 138035897
+Total occurrences of EUR: 156025349
+Total occurrences of SAS: 128135879

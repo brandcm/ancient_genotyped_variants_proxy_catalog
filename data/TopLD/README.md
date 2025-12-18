@@ -1,0 +1,1 @@
+Please note that the `data/` subdirectory is not provided here. All the files present in that subdirectory can be retrieved from [here](http://topld.genetics.unc.edu/downloads/downloads/) from the `SNV/` subdirectories in `AFR/`, `EAS/`, `EUR/`, and `SAS/`.

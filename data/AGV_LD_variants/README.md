@@ -1,0 +1,1 @@
+Please note that `data/` subdirectory and summary files are not included in this repository due to size constraints. However, the summary files can be accessed [here](https://ucsf.box.com/s/0fm9squ3qxofxnhn669jm2xm8w91qntg). 

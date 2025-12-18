@@ -1,0 +1,1 @@
+Please note that three subdirectories in this data directory are too large to house on GitHub and can be found [here](https://ucsf.box.com/s/xbpvj9h42o2u4mkdzjgev9figc5fbg2d) in the `estimates/` subdirectory. These include the `ancient_genotypes/`, `EUR_AGV_LD_variants/`, and `mismatches/` subdirectories.
