@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # change directories
-cd /wynton/group/capra/projects/ancient_genotyped_variants_proxy_catalog/data/TopLD
+cd /wynton/group/capra/projects/ancient_genotyped_variants_proxy_catalog/data/TopLD/data
 
 # define variables
 ancestry_groups=('AFR' 'EAS' 'EUR' 'SAS' )

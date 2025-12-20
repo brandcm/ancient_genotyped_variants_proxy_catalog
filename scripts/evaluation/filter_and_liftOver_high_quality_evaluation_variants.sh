@@ -51,5 +51,9 @@ awk '{print "chr"$1,$2-1,$2,$3}' OFS='\t' "$chr".tmp > "$chr".bed
 "$liftOver" "$chr".bed "$hg19_hg38_chain" "${ind}_${chr}_hg38.bed" "${ind}_${chr}_hg19_unlifted.bed"
 awk '{print $3,$4}' OFS='\t' "${ind}_${chr}_hg38.bed" > "${ind}_${chr}_hg38.txt"
 gzip "${ind}_${chr}_hg38.txt"
-mv "${ind}_${chr}_hg38.txt.gz" "$evaluation_directory"
-mv "${ind}_${chr}_hg19_unlifted.bed" "$evaluation_directory"
+
+mkdir -p "${evaluation_directory}/ancient_genotypes/"
+mkdir -p "${evaluation_directory}/ancient_genotypes_unlifted/"
+
+mv "${ind}_${chr}_hg38.txt.gz" "${evaluation_directory}/ancient_genotypes/"
+mv "${ind}_${chr}_hg19_unlifted.bed" "${evaluation_directory}/ancient_genotypes_unlifted/"

@@ -23,4 +23,4 @@ output_directory="${project_directory}data/AGVs/gnomAD_AFs/"
 
 # run
 mkdir -p "$output_directory"
-bcftools view -R "$bedfile" -v snps "${gnomAD_vcfs_directory}gnomad.genomes.v4.1.sites.${chr}.vcf.bgz" | bcftools query -f'%CHROM\t%POS\t%REF\t%ALT{0}\t%FILTER\t%AF\t%AF_afr\t%AF_eas\t%AF_nfe\t%AF_sas\n' > "${output_directory}${chr}_gnomAD_AFs.txt"
+bcftools view -R "$bedfile" -v snps "${gnomAD_vcfs_directory}gnomad.genomes.v4.1.sites.${chr}.vcf.bgz" | bcftools query -f'%CHROM\t%POS\t%REF\t%ALT{0}\t%FILTER\t%AF\t%AF_afr\t%AF_eas\t%AF_nfe\t%AF_sas\n' > "${output_directory}${chr}_AGVs_gnomAD_AFs.txt"

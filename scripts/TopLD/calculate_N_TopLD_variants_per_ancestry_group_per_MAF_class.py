@@ -6,7 +6,7 @@ def main():
 	TopLD_directory_path = "/wynton/group/capra/projects/ancient_genotyped_variants_proxy_catalog/data/TopLD/data"
 	ancestry_group_counts = count_TopLD_variants_by_ancestry_group(TopLD_directory_path)
 
-	output_file = "/wynton/group/capra/projects/ancient_genotyped_variants_proxy_catalog/data/TopLD/calculate_N_TopLD_variants_per_ancestry_group_per_MAF_class.txt"
+	output_file = "/wynton/group/capra/projects/ancient_genotyped_variants_proxy_catalog/data/TopLD/proportion_TopLD_variants_per_ancestry_group_per_MAF_class.txt"
 	write_proportions_to_file(ancestry_group_counts, output_file)
 
 def classify_MAF(MAF):

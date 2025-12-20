@@ -8,6 +8,6 @@ This directory contains files used to retrieve and analyze allele age estimates 
 
 - `generate_allele_frequency_matched_random_sample_for_AGV_age_estimates.sh` implements `generate_allele_frequency_matched_random_sample_for_AGV_age_estimates.py` to generate a random sample of allele ages from the Human Genome Dating project that matches on 100 allele frequency bins (0-0.01, 0.01-0.02, etc.) and the distribution of data sources (Combined, Simons Genome Diversity Project, Thousand Genomes Project).
 
-- `retrieve_AGV_tree_sequence_estimates.sh` implements `retrieve_tree_sequence_age_estimates.sh` to retrieve age estimates from the Wohns et al. 2022 tree sequences dataset.
+- `retrieve_AGV_tree_sequence_estimates.sh` implements `retrieve_AGV_tree_sequence_age_estimates.sh` to retrieve age estimates from the Wohns et al. 2022 tree sequences dataset.
 
 - `concat_AGV_tree_sequence_age_estimates.sh` concatenates the individual chromosome-level outputs from above into a single file.
